@@ -1,0 +1,19 @@
+# netlify.toml
+
+[build]
+  # Since all files are in the root and there is no build command, 
+  # we set the publish directory to the current directory.
+  publish = "."
+
+# --- Redirects for Single Page Application (SPA) ---
+[[redirects]]
+  # This rule ensures that any request path (/*) that doesn't 
+  # directly match an existing file will serve the main Index.html 
+  # with a 200 status code. 
+  # This is crucial for client-side routing and deep-linking, 
+  # although your app currently uses hash-based routing which is less reliant 
+  # on this. It's good practice for any HTML app.
+  from = "/*"
+  to = "/𝚺CHESS"
+
+  status = 200
