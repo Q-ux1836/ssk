@@ -14,6 +14,6 @@
   # although your app currently uses hash-based routing which is less reliant 
   # on this. It's good practice for any HTML app.
   from = "/*"
-  to = "/𝚺CHESS"
+  to = "/Weather"
 
   status = 200
