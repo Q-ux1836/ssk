@@ -1,0 +1,14 @@
+{
+  "name": "Σ WEATHER",
+  "short_name": "Σ WEATHER",
+  "start_url": "/weather.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a66c2",
+  "theme_color": "#0a66c2",
+  "icons": [
+    { "src": "https://i.ibb.co.com/232cZZnv/Copy-of.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "https://i.ibb.co.com/232cZZnv/Copy-of.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
